@@ -2,7 +2,7 @@ Challenges to this project
 
 
 1. Create an application using ReactJS or NextJS 
-&#x2705; Yes, used React JS and Vite to create this project
+&#x2705; Yes, React JS, Typescript and Sass were used to create this project via Create Vite App.  
 
 2.Allow data task maintenance ( C.R.U.D)
 &#x2705; Yes.
