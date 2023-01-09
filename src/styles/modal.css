@@ -1,0 +1,121 @@
+
+  .modal-overlay {
+    border-radius: 10px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.514);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modal {
+    border-radius: 10px;
+    max-width: 500px;
+    width: 80%;
+    background-color:transparent;
+    border-radius: 8px;
+  }
+  .modal-header {
+    border-bottom: 1px solid transparent;
+  }
+  .modal-title{
+    border-radius: 10px;
+    background-color:  #403D39;
+    margin: 0;
+    font-size: 1.50rem;
+    padding: 1rem;
+    text-align: left;
+    color:#fffcf2 ;
+  }
+
+ 
+
+  .modal-content {
+    border-radius: 10px;
+    color :#fffcf2;
+    font-size: larger;
+    text-align: left;
+    padding: 2rem;
+  }
+  .modal-footer {
+    border-radius: 10px;
+    padding: 0 2rem 2rem ;
+    border-top: 1px solid transparent;
+    text-align: right;
+  }
+  .modal-button {
+    background-color: transparent;
+    font-size: 1rem;
+    height: 2rem;
+    width: 5rem;
+    font-weight: 700;
+    color: #fffcf2;
+    background:#403D39;
+    margin: 3;
+    border-radius: 7px;
+    border: 0;
+    
+  }
+
+ 
+
+  
+
+  .modal-add-button{
+    font-size: large;
+    border-radius: 7px;
+    border: none;
+    width: 8rem;
+    background-color: #71B340;
+    color: #fffcf2;
+    font-weight: 800;
+    margin-top: 2rem;
+    
+   
+  }
+ 
+  .modal-edit-button{
+    font-size: large;
+    border-radius: 7px;
+    border: none;
+    width: 8rem;
+    background-color:#769FB6;
+    color: #fffcf2;
+    font-weight: 800;
+    
+  }
+  
+
+  .add_task_form {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.add_task_input {
+  border-radius: 7px;
+  outline: none;
+  padding-inline: 1rem;
+    font-size: 1.5rem;
+    background-color: #fffcf2;
+    color: #16161a;
+}
+.add_task_input_description{
+  border-radius: 7px;
+  outline: none;
+  padding: 1rem;
+  resize: vertical;
+  height: 5rem;
+  background-color: #fffcf2 ;
+}
+
+.add-main-button {
+    color: #7C9082;
+    cursor: pointer;
+    height: 4rem;
+    width: 4rem;
+}

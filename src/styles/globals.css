@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #252422;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.header {
+  display: flex;
+  min-height: 6rem;
+  padding-block: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  background-color: #252422;
+  color: #fffcf2;
+}
+
+.card__container {
+  padding: 2rem;
+  margin-bottom: 2rem;
+  margin: auto;
+  width: 80%;
+}
+
+.box {
+  background-color: #fffcf2;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-block: 2rem;
+  box-shadow: rgba(167, 167, 167, 0.35) 0px 5px 15px;
+}
+
+.box:hover {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.box:active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+.box-info-title {
+  background-color: #fffcf2;
+  color: #eb5e28;
+}
+
+.box-info-subtitle {
+  background-color: #fffcf2;
+  color: #403d39;
+}
+
+.box-info-date {
+  background-color: #fffcf2;
+  color: #403d39;
+}
+
+.box-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fffcf2;
+}
+
+.button-icon-edit, .button-icon-delete {
+  cursor: pointer;
+  background-color: #fffcf2;
+  height: 2rem;
+  width: 2rem;
+  color: #769fb6;
+}
+
+.button-icon-edit:hover, .button-icon-delete:hover {
+  transition: 0.3s all ease-in-out;
+  opacity: 0.8;
+}
+
+.button-icon-edit:active, .button-icon-delete:active {
+  transition: 0.1s all ease-in-out;
+  transform: scale(0.9);
+}
+
+.button-icon-delete {
+  color: #b34113;
+}
+
+.button-icon-delete:hover {
+  transition: 0.3s all ease-in-out;
+  opacity: 0.8;
+}
+
+.button-container {
+  width: 4rem;
+  height: 4rem;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fffcf2;
+  align-items: center;
+}
+
+.button-icon .delete {
+  color: #eb5e28;
+}
+
+.show-tooltip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  background-color: #fffcf2;
+  color: #3e78b2;
+  transition: 0.3s all ease-in-out;
+}
+
+.hide-tooltip {
+  transition: 0.3s all ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  background-color: #fffcf2;
+  color: #fffcf2;
+}
+
+li::marker {
+  color: transparent;
+}
+
+.empty-main {
+  color: #fffcf2;
+  align-items: center;
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  margin-block: 10rem;
+  display: flex;
+  justify-content: center;
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+  .box-info-title {
+    font-size: 1.7rem;
+  }
+  .box-info-subtitle {
+    font-size: 1rem;
+  }
+  .box-info-date {
+    font-size: 0.7rem;
+  }
+  .box-buttons {
+    transform: scale(0.7);
+  }
+  .empty-main {
+    text-align: center;
+  }
+}
+@media all and (max-width: 480px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+  .box-info {
+    width: 100%;
+  }
+  .box-info-title {
+    width: 100%;
+    font-size: 1.4rem;
+  }
+  .box-info-subtitle {
+    font-size: 0.8rem;
+  }
+  .box-info-date {
+    font-size: 0.6rem;
+  }
+  .box-buttons {
+    transform: scale(0.8);
+  }
+  .empty-main {
+    text-align: center;
+  }
+}/*# sourceMappingURL=globals.css.map */
